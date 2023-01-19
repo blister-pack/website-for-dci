@@ -1,0 +1,172 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-bar {
+  background-color: brown;
+  display: flex;
+  position: fixed;
+  margin-top: 0;
+  padding: 5px 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-bar li a {
+  color: gold;
+  text-decoration: none;
+  padding: 3px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-bar li a:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.le-header {
+  background-image: url("./images/headerpic.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.le-header h1 {
+  margin: 190px 0px 0px 52px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.le-header p {
+  margin: 20px 0px 0px 52px;
+  color: white;
+  font-size: 20px;
+}
+
+.main-config {
+  background: linear-gradient(
+    148deg,
+    rgba(171, 173, 121, 1) 26%,
+    rgba(78, 61, 39, 1) 49%,
+    rgba(102, 208, 169, 1) 87%
+  );
+}
+
+.div-text-block h2 {
+  color: white;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.div-text-block h3 {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.div-text-block h4 {
+  color: darkred;
+  font-weight: bold;
+}
+
+.div-text-block p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/* DANCING DWARF SHOULD LOOK PRETTY */
+.format-image-right {
+}
+
+.bugs-lib {
+  /* border: 2px solid red; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bugs-lib h3 {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.bugs-wrapper {
+  /* border: 2px green solid; */
+  min-height: 90vh;
+}
+
+.bug-card {
+  /* border: 2px solid blue; */
+  border-radius: 8px;
+  width: 700px;
+  height: 370px;
+
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.bug-card-top {
+  /* border: 2px solid wheat; */
+  width: 350px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bug-card-bottom {
+  /* border: 2px solid red; */
+  border-radius: 0px 8px 8px 0px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: dimgray;
+}
+
+.bug-card-bottom h5 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.bug-card-bottom p {
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.glyphid_img {
+  background-image: url(./images/Glyphid_Guard.jpg);
+}
+
+.shellback_img {
+  background-image: url(./images/ronar_Shellback.jpg);
+}
+
+.mactera_img {
+  background-image: url(./images/Mactera_Tri-Jaw.jpg);
+}
+
+.cave-leech_img {
+  background-image: url(./images/Cave_leech.jpg);
+}

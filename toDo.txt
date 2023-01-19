@@ -1,0 +1,32 @@
+Idea is to make a DRG recruitment page
+    DRG would be a ral company inviting people to become miners (players) by talking about the game
+    we'll go over some aspects of the game like memes, missions and bugs, mission control etc
+
+
+*Implement:
+
+Autoplay RockAndStoneNeverAlone.mp3 or with an event (like hover over title)
+choose font (x)
+footer w link to steam game
+navi needs to go to place in website
+
+images in cards
+sounds
+animations
+
+
+
+
+
+*Cute Ideas:
+change cursor to a pickaxe
+Header fade out DRG and fade in Deep Rock Galactic
+
+
+
+*Fix:
+nav bar moves when hover
+
+
+*Oopsies:
+idk why reset didn't take away bullet points on list (x)
